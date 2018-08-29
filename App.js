@@ -6,6 +6,7 @@ import {
 } from 'react-native';
 
 import Calculator from './components/Calculator';
+import Style from './styles/style';
 
 export default class App extends React.Component {
   render() {
