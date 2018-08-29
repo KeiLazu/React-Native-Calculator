@@ -1,23 +1,18 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import {
+  View,
+  Text
+} from 'react-native';
 
-import HeaderApp from './components/HeaderApp';
+import Style from './styles/style';
 
 export default class App extends React.Component {
   render() {
     return (
-      <View style={styles.container}>
-        <HeaderApp />
+      <View style={Style.rootContainer}>
+          <View style={Style.displayContainer}></View>
+          <View style={Style.inputContainer}></View>
       </View>
     );
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    // alignItems: 'center',
-    // justifyContent: 'center',
-  },
-});
