@@ -4,7 +4,7 @@ import {
     Text
 } from 'react-native';
 
-import Style from './Style';
+import Style from './styles/Style';
 
 export default class InputButton extends Component {
     

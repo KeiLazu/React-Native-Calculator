@@ -4,7 +4,8 @@ import {
   Text
 } from 'react-native';
 
-import Style from './styles/style';
+import Style from './styles/Style';
+import ReactCalculator from './components/ReactCalculator';
 
 export default class App extends React.Component {
   render() {

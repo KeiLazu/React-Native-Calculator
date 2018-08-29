@@ -3,11 +3,11 @@ import React , {
 } from 'react';
 
 import { 
-  View,
-  InputButton
+  View
 } from 'react-native';
 
-import InputButton from './InputButton';
+import Style from 'Style';
+import InputButton from 'InputButton';
 
 // Define the input buttons that will be displayed in the calculator.
 const inputButtons = [
