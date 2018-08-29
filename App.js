@@ -1,13 +1,13 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-import Calculator from './components/Calculator';
+import HeaderApp from './components/HeaderApp';
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Calculator />
+        <HeaderApp />
       </View>
     );
   }
