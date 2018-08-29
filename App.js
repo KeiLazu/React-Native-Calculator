@@ -5,7 +5,10 @@ import {
   StyleSheet
 } from 'react-native';
 
+<<<<<<< HEAD
 import Calculator from './components/Calculator';
+=======
+>>>>>>> parent of d7776a1... prepare for rollback
 import Style from './styles/style';
 
 export default class App extends React.Component {
